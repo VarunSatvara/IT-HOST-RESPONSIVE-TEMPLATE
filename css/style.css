@@ -1,227 +1,233 @@
-    body,
-    html {
-        font-family: 'Montserrat', sans-serif;
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-head {
+    position: absolute;
+    width: 100%;
+    padding-top: 25px;
+    z-index: 99;
+}
+
+.ticket-change {
+    font-size: 15px;
+    color: #3b1d82 !important;
+}
+
+.font-change {
+    font-size: 18px;
+    color: #ffffff !important;
+}
+
+.set-bg {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.hero-section {
+    height: 835px;
+    overflow: hidden;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.hero-rocket {
+    position: absolute;
+    bottom: 8px;
+    right: -198px;
+}
+
+.rocket-img {
+    position: relative;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rocket;
+}
+
+.head-paragraph {
+    color: #8e8e8e;
+    font-size: 17px;
+}
+
+.head-title {
+    color: #1c1c1c;
+    font-size: 48px;
+}
+
+.feature-item .ft-icon {
+    width: 87px;
+    height: 87px;
+    background: #eb2b63;
+    font-size: 43px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.icon-text-p {
+    color: #585858;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.icon-text-h4 {
+    color: #1c1c1c;
+    font-size: 30px;
+}
+
+.feature-bg {
+    background-image: url(../images/domain-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes rocket {
+    0% {
+        left: 20px;
+        bottom: 20px;
     }
-    
-    .nav-head {
-        position: absolute;
-        width: 100%;
-        padding-top: 25px;
-        z-index: 99;
+    25% {
+        left: -20px;
+        bottom: 20px;
     }
-    
-    .ticket-change {
-        font-size: 15px;
-        color: #3b1d82 !important;
+    50% {
+        left: -20px;
+        bottom: 0px;
     }
-    
+    75% {
+        left: 0px;
+        bottom: 0px;
+    }
+    100% {
+        left: 20px;
+        bottom: 20px;
+    }
+}
+
+.offer-txt {
+    font-size: 90px;
+}
+
+.offer-paragraph {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.btn-plan {
+    background-color: #eb2b63;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {
+    .feature-item.fi-center-top .ft-icon {
+        transform-origin: bottom center;
+        transform: scale(1.65);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .feature-item.fi-center-top .ft-icon {
+        transform-origin: bottom center;
+        transform: scale(1.65);
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
     .font-change {
-        font-size: 18px;
-        color: #ffffff !important;
+        font-size: 15px;
     }
-    
-    .set-bg {
-        background-image: url(../images/bg.jpg);
-        background-size: cover;
-        background-position: top center;
-        background-repeat: no-repeat;
+    .offer-txt {
+        font-size: 40px;
     }
-    
-    .hero-section {
-        height: 835px;
-        overflow: hidden;
+    .offer-paragraph {
+        font-size: 17px;
     }
-    
-    .hero-content {
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .brand {
+        padding: 20px;
+    }
+    .navbar {
+        padding: 0 !important;
+    }
+    .navbar-collapse {
+        background-color: #ffffff;
+    }
+    .font-change {
+        color: #000000 !important;
+    }
+    .hameburger-white {
+        color: white !important;
+        font-size: 30px;
+    }
+    .brand {
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 100%;
-        position: relative;
+        justify-content: space-between;
     }
-    
-    .hero-rocket {
-        position: absolute;
-        bottom: 8px;
-        right: -198px;
+    .nav-head {
+        padding-top: 0px;
     }
-    
-    .rocket-img {
-        position: relative;
-        animation-duration: 2s;
-        animation-timing-function: linear;
-        animation-delay: 0s;
-        animation-iteration-count: infinite;
-        animation-direction: normal;
-        animation-fill-mode: none;
-        animation-play-state: running;
-        animation-name: rocket;
-    }
-    
-    .head-paragraph {
-        color: #8e8e8e;
-        font-size: 14px;
-    }
-    
-    .head-title {
-        color: #1c1c1c;
-        font-size: 48px;
-    }
-    
-    .feature-item .ft-icon {
-        width: 87px;
-        height: 87px;
-        background: #eb2b63;
-        font-size: 43px;
-        border-radius: 50%;
-        margin-bottom: 40px;
-    }
-    
-    .icon-text-p {
-        color: #585858;
-        font-size: 15px;
-    }
-    
-    .icon-text-h4 {
-        color: #1c1c1c;
-        font-size: 24px;
-        line-height: 25px;
-    }
-    
-    @keyframes rocket {
-        0% {
-            left: 20px;
-            bottom: 20px;
-        }
-        25% {
-            left: -20px;
-            bottom: 20px;
-        }
-        50% {
-            left: -20px;
-            bottom: 0px;
-        }
-        75% {
-            left: 0px;
-            bottom: 0px;
-        }
-        100% {
-            left: 20px;
-            bottom: 20px;
-        }
-    }
-    
     .offer-txt {
-        font-size: 90px;
+        font-size: 40px;
     }
-    
     .offer-paragraph {
-        font-size: 19px;
-        line-height: 30px;
+        font-size: 17px;
     }
-    
-    .btn-plan {
-        background-color: #eb2b63;
+    .head-title {
+        font-size: 38px;
     }
-    
-    @media screen and (min-width: 1025px) and (max-width: 2560px) {
-        .feature-item.fi-center-top .ft-icon {
-            transform-origin: bottom center;
-            transform: scale(1.65);
-        }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .brand {
+        padding: 20px;
     }
-    
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .feature-item.fi-center-top .ft-icon {
-            transform-origin: bottom center;
-            transform: scale(1.65);
-        }
+    .navbar {
+        padding: 0 !important;
     }
-    
-    @media screen and (min-width: 425px) and (max-width: 768px) {
-        .font-change {
-            font-size: 15px;
-        }
-        .offer-txt {
-            font-size: 40px;
-        }
-        .offer-paragraph {
-            font-size: 17px;
-        }
+    .navbar-collapse {
+        background-color: #ffffff;
     }
-    
-    @media screen and (min-width: 375px) and (max-width: 425px) {
-        .brand {
-            padding: 20px;
-        }
-        .navbar {
-            padding: 0 !important;
-        }
-        .navbar-collapse {
-            background-color: #ffffff;
-        }
-        .font-change {
-            color: #000000 !important;
-        }
-        .hameburger-white {
-            color: white !important;
-            font-size: 30px;
-        }
-        .brand {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .nav-head {
-            padding-top: 0px;
-        }
-        .offer-txt {
-            font-size: 40px;
-        }
-        .offer-paragraph {
-            font-size: 17px;
-        }
-        .head-title {
-            font-size: 38px;
-        }
+    .font-change {
+        color: #000000 !important;
     }
-    
-    @media screen and (min-width: 320px) and (max-width: 375px) {
-        .brand {
-            padding: 20px;
-        }
-        .navbar {
-            padding: 0 !important;
-        }
-        .navbar-collapse {
-            background-color: #ffffff;
-        }
-        .font-change {
-            color: #000000 !important;
-        }
-        .hameburger-white {
-            color: white !important;
-            font-size: 30px;
-        }
-        .brand {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .nav-head {
-            padding-top: 0px;
-        }
-        .offer-txt {
-            font-size: 30px;
-        }
-        .offer-paragraph {
-            font-size: 17px;
-        }
-        .head-title {
-            font-size: 33px;
-        }
+    .hameburger-white {
+        color: white !important;
+        font-size: 30px;
     }
-    
-    @media screen and (max-width: 319px) {}
+    .brand {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-head {
+        padding-top: 0px;
+    }
+    .offer-txt {
+        font-size: 30px;
+    }
+    .offer-paragraph {
+        font-size: 17px;
+    }
+    .head-title {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 319px) {}
