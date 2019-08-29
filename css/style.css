@@ -134,17 +134,6 @@ textarea {
     min-width: 229px;
 }
 
-.site-btn {
-    font-size: 14px;
-    font-weight: 400;
-    min-width: 186px;
-    padding: 17px 25px;
-    border-radius: 14px;
-    background: #eb2b63;
-    line-height: 1;
-    cursor: pointer;
-}
-
 .domain-form-warp p {
     font-size: 14px;
     opacity: .26;
@@ -245,6 +234,10 @@ textarea {
     z-index: 5;
 }
 
+.pricing-plan.gold-plan .pricing-title {
+    background: #eb2b63;
+}
+
 .pricing-plan .pricing-body .site-btn {
     width: 100%;
     padding: 22px;
@@ -252,7 +245,6 @@ textarea {
 }
 
 .site-btn {
-    display: inline-block;
     border: none;
     font-size: 14px;
     font-weight: 400;
@@ -260,10 +252,56 @@ textarea {
     padding: 17px 25px;
     border-radius: 14px;
     background: #eb2b63;
-    color: #fff;
     line-height: 1;
     cursor: pointer;
-    text-align: center;
+}
+
+.bg-comp {
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.host-text {
+    font-size: 30px;
+}
+
+.host-paragraph {
+    font-size: 15px;
+    opacity: .40;
+}
+
+.ft-top {
+    background-color: #200545;
+}
+
+.social a {
+    width: 32px;
+    height: 32px;
+    background: #491f70;
+    border-radius: 50%;
+    margin-right: 13px;
+    font-size: 12px;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+.link-text {
+    font-size: 15px;
+    opacity: .25;
+    line-height: 15px;
+}
+
+.ft-paragraph {
+    font-size: 15px;
+    opacity: .25;
+    line-height: 26px;
+}
+
+.hosting-list ul li {
+    line-height: 40px;
 }
 
 @keyframes rocket {
