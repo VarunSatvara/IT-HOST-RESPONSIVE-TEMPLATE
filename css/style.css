@@ -151,6 +151,66 @@ textarea {
     line-height: 1;
 }
 
+.client-paragraph {
+    color: #212529;
+    background-color: #eef6f9;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.client-color {
+    color: #eb2b63;
+}
+
+.client-img {
+    height: 110px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.single-progress-item p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.single-progress-item p {
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.single-progress-item .progress-bar-style {
+    height: 8px;
+    width: 100%;
+    background: #eef6f9;
+    border-radius: 15px;
+}
+
+.single-progress-item .progress-bar-style .bar-inner {
+    position: relative;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.single-progress-item .progress-bar-style .bar-inner span {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
 @keyframes rocket {
     0% {
         left: 20px;
