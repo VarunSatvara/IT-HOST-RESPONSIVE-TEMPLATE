@@ -152,7 +152,7 @@ textarea {
 }
 
 .client-paragraph {
-    color: #212529;
+    color: #585858;
     background-color: #eef6f9;
     font-size: 16px;
     line-height: 27px;
@@ -175,38 +175,25 @@ textarea {
 }
 
 .single-progress-item p {
-    font-size: 16px;
-    color: #000;
-    line-height: 1;
-    margin-bottom: 15px;
-}
-
-.single-progress-item p {
     font-size: 18px;
-    color: #000;
     line-height: 1;
     margin-bottom: 12px;
 }
 
 .single-progress-item .progress-bar-style {
     height: 8px;
-    width: 100%;
     background: #eef6f9;
     border-radius: 15px;
 }
 
 .single-progress-item .progress-bar-style .bar-inner {
-    position: relative;
-    height: 100%;
     border-radius: 15px;
 }
 
 .single-progress-item .progress-bar-style .bar-inner span {
-    position: absolute;
     bottom: 100%;
     right: 0;
     font-size: 18px;
-    color: #000;
     line-height: 1;
     margin-bottom: 12px;
 }
