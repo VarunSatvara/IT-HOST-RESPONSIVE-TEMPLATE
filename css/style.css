@@ -94,6 +94,63 @@ html {
     background-position: center;
 }
 
+.domain-form-warp {
+    max-width: 993px;
+    margin: 0 auto;
+}
+
+.domain-search-form {
+    margin-bottom: 15px;
+}
+
+.domain-search-form input {
+    width: calc(100% - 240px);
+    height: 59px;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 0 50px;
+    margin-right: 5px;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.domain-search-form .site-btn {
+    height: 59px;
+    min-width: 229px;
+}
+
+.site-btn {
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 186px;
+    padding: 17px 25px;
+    border-radius: 14px;
+    background: #eb2b63;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.domain-form-warp p {
+    font-size: 14px;
+    opacity: .26;
+    line-height: 1;
+}
+
 @keyframes rocket {
     0% {
         left: 20px;
@@ -191,6 +248,12 @@ html {
     .head-title {
         font-size: 38px;
     }
+    .domain-search-form input {
+        width: calc(100% - 30px);
+    }
+    .domain-form-warp p {
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
@@ -227,6 +290,16 @@ html {
     }
     .head-title {
         font-size: 33px;
+    }
+    .domain-search-form input {
+        width: calc(100% - 10px);
+    }
+    .site-btn {
+        min-width: 166px;
+        padding: 14px 20px;
+    }
+    .domain-form-warp p {
+        font-size: 12px;
     }
 }
 
