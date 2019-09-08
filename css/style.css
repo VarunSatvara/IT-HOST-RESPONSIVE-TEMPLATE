@@ -10,6 +10,12 @@ html {
     z-index: 99;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
 .ticket-change {
     font-size: 15px;
     color: #3b1d82 !important;
